@@ -13,7 +13,7 @@ for line in climate_data:
     data = line.split(',')
 
     if data[0][0] == '#':
-        # don't want to process comment lines, which start with '#'
+        # don't want to protcess comment lines, which start with '#'
         pass
     else:
         # extract our max temperature in Fahrenheit - 4th column
